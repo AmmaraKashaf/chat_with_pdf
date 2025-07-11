@@ -6,7 +6,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAsr0XzqKoXXnmzl7q7z2774TewSdFOvms" 
+os.environ["GOOGLE_API_KEY"] = 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 
