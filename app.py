@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 
-loader = PyMuPDFLoader("your_pdf.pdf")  # 📝 change if file name is different
+loader = PyMuPDFLoader("your_pdf.pdf")  
 documents = loader.load()
 
 
